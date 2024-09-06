@@ -22,19 +22,12 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
 
-        button = findViewById(R.id.frag_button);
-
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ForecastFragment forecastFragment = new ForecastFragment();
-                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.add(R.id.container, forecastFragment);
-                transaction.commit();
-            }
-        });
+        ForecastFragment forecastFragment = new ForecastFragment();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.add(R.id.container, forecastFragment);
+        transaction.commit();
     }
+
 
 
     @Override
