@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A6CFE2"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".ForecastFragment">          
 
@@ -26,7 +26,8 @@
                 android:layout_weight="1.5"
                 android:gravity="center"
                 android:text="Mon"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
 
             <ImageView
                 android:id="@+id/monday_icon"
@@ -49,14 +50,16 @@
                     android:gravity="center|left"
                     android:text="Partly rainy"
                     android:textSize="16sp"
-                    tools:gravity="bottom" />
+                    tools:gravity="bottom"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/monday_temp"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="13C - 15C" />
+                    android:text="13C - 15C"
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
 
@@ -82,7 +85,8 @@
                 android:layout_weight="1.5"
                 android:gravity="center"
                 android:text="Tue"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textColor="@color/black" />
 
             <ImageView
                 android:id="@+id/tuesday_icon"
@@ -105,14 +109,16 @@
                     android:gravity="center|left"
                     android:text="Stormy"
                     android:textSize="16sp"
-                    tools:gravity="bottom" />
+                    tools:gravity="bottom"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/tuesday_temp"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="15C - 17C" />
+                    android:text="15C - 17C"
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
 
@@ -138,7 +144,8 @@
                 android:layout_weight="1.5"
                 android:gravity="center"
                 android:text="Wed"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textColor="@color/black" />
 
             <ImageView
                 android:id="@+id/wed_icon"
@@ -161,14 +168,16 @@
                     android:gravity="center|left"
                     android:text="Sunny"
                     android:textSize="16sp"
-                    tools:gravity="bottom" />
+                    tools:gravity="bottom"
+                    android:textColor="@color/black" />
 
                 <TextView
                     android:id="@+id/wed_temp"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="19C - 23C" />
+                    android:text="19C - 23C"
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
 
@@ -194,7 +203,8 @@
                 android:layout_weight="1.5"
                 android:gravity="center"
                 android:text="Thur"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textColor="@color/black" />
 
             <ImageView
                 android:id="@+id/thurs_icon"
@@ -217,14 +227,16 @@
                     android:gravity="center|left"
                     android:text="Partly sunny"
                     android:textSize="16sp"
-                    tools:gravity="bottom" />
+                    tools:gravity="bottom"
+                    android:textColor="@color/black" />
 
                 <TextView
                     android:id="@+id/thurs_temp"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="20C - 25C" />
+                    android:text="20C - 25C"
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
 
@@ -250,7 +262,8 @@
                 android:layout_weight="1.5"
                 android:gravity="center"
                 android:text="Fri"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textColor="@color/black" />
 
             <ImageView
                 android:id="@+id/fri_icon"
@@ -273,14 +286,16 @@
                     android:gravity="center|left"
                     android:text="Partly rainy"
                     android:textSize="16sp"
-                    tools:gravity="bottom" />
+                    tools:gravity="bottom"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/fri_temp"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="20C - 22C" />
+                    android:text="20C - 22C"
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
 
@@ -306,7 +321,8 @@
                 android:layout_weight="1.5"
                 android:gravity="center"
                 android:text="Sat"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textColor="@color/black" />
 
             <ImageView
                 android:id="@+id/sat_icon"
@@ -329,14 +345,16 @@
                     android:gravity="center|left"
                     android:text="Tornado"
                     android:textSize="16sp"
-                    tools:gravity="bottom" />
+                    tools:gravity="bottom"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/sat_temp"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="7C - 8C" />
+                    android:text="7C - 8C"
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
 
@@ -362,7 +380,8 @@
                 android:layout_weight="1.5"
                 android:gravity="center"
                 android:text="Sun"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textColor="@color/black" />
 
             <ImageView
                 android:id="@+id/sun_icon"
@@ -385,14 +404,16 @@
                     android:gravity="center|left"
                     android:text="Tsunami"
                     android:textSize="16sp"
-                    tools:gravity="bottom" />
+                    tools:gravity="bottom"
+                    android:textColor="@color/black" />
 
                 <TextView
                     android:id="@+id/sun_temp"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="4"
-                    android:text="0C - 2C" />
+                    android:text="0C - 2C"
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
 
