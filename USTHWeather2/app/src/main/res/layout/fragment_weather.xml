@@ -11,7 +11,7 @@
         android:id="@+id/temp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="12C"
+        android:text="@string/temp"
         android:layout_alignParentLeft="true"
         android:textColor="@color/black"
         android:textSize="20dp"/>
@@ -20,7 +20,7 @@
         android:id="@+id/weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rainy"
+        android:text="@string/weather"
         android:layout_below="@+id/temp"
         android:textColor="@color/black"
         android:textSize="20dp"/>
@@ -36,7 +36,7 @@
         android:id="@+id/paris"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Paris"
+        android:text="@string/paris"
         android:layout_alignParentRight="true"
         android:textColor="@color/black"
         android:textSize="20dp"

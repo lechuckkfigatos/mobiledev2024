@@ -38,7 +38,7 @@
         android:layout_width="312dp"
         android:layout_height="131dp"
         android:gravity="center"
-        android:text="THE STORM IS HERE WE ARE ALL GONNA DIE"
+        android:text="@string/the_storm_is_here_we_are_all_gonna_die"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
