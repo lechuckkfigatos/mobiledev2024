@@ -22,9 +22,9 @@ public class VPAdapter extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
         switch (position) {
             case 0:
-                return new ForecastFragment();
+                return new WeatherAndForecastFragment();
             case 1:
-                return new WeatherFragment();
+                return new WeatherAndForecastFragment();
             case 2:
                 return new WeatherAndForecastFragment();
             default:

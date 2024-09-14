@@ -24,9 +24,9 @@
                 android:id="@+id/monday"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.5"
+                android:layout_weight="2.5"
                 android:gravity="center"
-                android:text="Mon"
+                android:text="@string/monday"
                 android:textSize="18sp"
                 android:textColor="@color/black"/>
 
@@ -49,7 +49,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="6"
                     android:gravity="center|left"
-                    android:text="Partly rainy"
+                    android:text="@string/PartlyRainy"
                     android:textSize="16sp"
                     tools:gravity="bottom"
                     android:textColor="@color/black"/>
@@ -83,9 +83,9 @@
                 android:id="@+id/tuesday"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.5"
+                android:layout_weight="2.5"
                 android:gravity="center"
-                android:text="Tue"
+                android:text="@string/tuesday"
                 android:textSize="18sp"
                 android:textColor="@color/black" />
 
@@ -108,7 +108,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="6"
                     android:gravity="center|left"
-                    android:text="Stormy"
+                    android:text="@string/Stormy"
                     android:textSize="16sp"
                     tools:gravity="bottom"
                     android:textColor="@color/black"/>
@@ -142,9 +142,9 @@
                 android:id="@+id/wed"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.5"
+                android:layout_weight="2.5"
                 android:gravity="center"
-                android:text="Wed"
+                android:text="@string/wednesday"
                 android:textSize="18sp"
                 android:textColor="@color/black" />
 
@@ -167,7 +167,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="6"
                     android:gravity="center|left"
-                    android:text="Sunny"
+                    android:text="@string/Sunny"
                     android:textSize="16sp"
                     tools:gravity="bottom"
                     android:textColor="@color/black" />
@@ -201,9 +201,9 @@
                 android:id="@+id/thurs"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.5"
+                android:layout_weight="2.5"
                 android:gravity="center"
-                android:text="Thur"
+                android:text="@string/thursday"
                 android:textSize="18sp"
                 android:textColor="@color/black" />
 
@@ -226,7 +226,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="6"
                     android:gravity="center|left"
-                    android:text="Partly sunny"
+                    android:text="@string/PartlySunny"
                     android:textSize="16sp"
                     tools:gravity="bottom"
                     android:textColor="@color/black" />
@@ -260,9 +260,9 @@
                 android:id="@+id/fri"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.5"
+                android:layout_weight="2.5"
                 android:gravity="center"
-                android:text="Fri"
+                android:text="@string/friday"
                 android:textSize="18sp"
                 android:textColor="@color/black" />
 
@@ -285,7 +285,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="6"
                     android:gravity="center|left"
-                    android:text="Partly rainy"
+                    android:text="@string/PartlyRainy"
                     android:textSize="16sp"
                     tools:gravity="bottom"
                     android:textColor="@color/black"/>
@@ -319,9 +319,9 @@
                 android:id="@+id/sat"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.5"
+                android:layout_weight="2.5"
                 android:gravity="center"
-                android:text="Sat"
+                android:text="@string/saturday"
                 android:textSize="18sp"
                 android:textColor="@color/black" />
 
@@ -344,7 +344,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="6"
                     android:gravity="center|left"
-                    android:text="Tornado"
+                    android:text="@string/Tornado"
                     android:textSize="16sp"
                     tools:gravity="bottom"
                     android:textColor="@color/black"/>
@@ -378,9 +378,9 @@
                 android:id="@+id/sun"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.5"
+                android:layout_weight="2.5"
                 android:gravity="center"
-                android:text="Sun"
+                android:text="@string/sunday"
                 android:textSize="18sp"
                 android:textColor="@color/black" />
 
@@ -403,7 +403,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="6"
                     android:gravity="center|left"
-                    android:text="Tsunami"
+                    android:text="@string/Tsunami"
                     android:textSize="16sp"
                     tools:gravity="bottom"
                     android:textColor="@color/black" />

@@ -13,6 +13,15 @@
     <string name="saturday">Thứ bảy</string>
     <string name="sunday">Chủ nhật</string>
 
+    <string name="PartlyRainy">Mưa ít</string>
+    <string name="Stormy">Bão</string>
+    <string name="Sunny">Nắng</string>
+    <string name="PartlySunny">Nắng ít</string>
+    <string name="Tornado">Lốc xoáy</string>
+    <string name="Tsunami">Sóng thần</string>
 
+    <string name="Hanoi">Hà Nội</string>
+    <string name="Paris">Pari</string>
+    <string name="london">Luôn Đôn</string>
 
 </resources>

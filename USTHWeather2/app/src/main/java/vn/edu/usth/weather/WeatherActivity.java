@@ -25,9 +25,9 @@ public class WeatherActivity extends AppCompatActivity {
 
 
 
-        viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "Paris");
-        viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "HaNoi");
-        viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "London");
+        viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), getString(R.string.Hanoi));
+        viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), getString(R.string.paris));
+        viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), getString(R.string.london));
 
         new TabLayoutMediator(tabLayout, Pager, (tab, position) -> {
             tab.setText(viewPagerAdapter.getTitle(position));

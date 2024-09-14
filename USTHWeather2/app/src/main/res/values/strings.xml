@@ -13,4 +13,14 @@
     <string name="saturday">Saturday</string>
     <string name="sunday">Sunday</string>
 
+    <string name="PartlyRainy">Partly Rainy</string>
+    <string name="Stormy">Stormy</string>
+    <string name="Sunny">Sunny</string>
+    <string name="PartlySunny">Partly Sunny</string>
+    <string name="Tornado">Tornado</string>
+    <string name="Tsunami">Tsunami</string>
+
+    <string name="Hanoi">Hanoi</string>
+    <string name="Paris">Paris</string>
+    <string name="london">London</string>
 </resources>
