@@ -15,15 +15,14 @@
 
 
 
-    <fragment
-        android:name="vn.edu.usth.weather.WeatherFragment"
+    <FrameLayout
         android:id="@+id/top_weather"
         android:layout_width="match_parent"
         android:layout_height="264dp"
         >
 
 
-    </fragment>
+    </FrameLayout>
     <FrameLayout
         android:id="@+id/bot_weather"
         android:layout_width="match_parent"
